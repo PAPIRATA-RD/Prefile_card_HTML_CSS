@@ -30,11 +30,12 @@ body
 .mainContainer
 {
     display: flex;
+    
     width: 23%;
+    min-width: 20rem;
     height: 50vh;
 
-    /* margin-left: 25%;
-    margin-right: 25%; */
+    
     margin: auto;
     margin-top: 10rem;   
     
@@ -172,6 +173,7 @@ body
     {
         display: flex;
         width: 70%;
+        max-width: 20rem;
         height: 60vh;
     }
     .infoContainer
